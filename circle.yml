@@ -4,6 +4,7 @@
 deployment:
   dockerhub:
     branch: master
+    commands:
 
 notify:
   webhooks:
