@@ -4,8 +4,10 @@
 deployment:
   dockerhub:
     branch: master
-    commands:
-      - $DOCKER_HUB_TRIGGER
+
+notify:
+  webhooks:
+    - url: https://registry.hub.docker.com/u/conorw/docker-ci/trigger/5a07e217-bc31-412f-8a5e-267784ce5b6f/
 
 test:
   override:    
