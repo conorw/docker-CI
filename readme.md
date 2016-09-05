@@ -10,4 +10,5 @@ Initializing a Git repo and making a remote of it on GitHub are explained in Mod
 
 The viewer should have Git installed and have a GitHub account.
 
-Some new text
+Trigger var
+curl -H "Content-Type:application/json" --data '{"build":true}' -X POST https://registry.hub.docker.com/u/conorw/docker-ci/trigger/5a07e217-bc31-412f-8a5e-267784ce5b6f/
